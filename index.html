@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Map</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+  <div id="site">
+    <div class="burger">
+
+      <div class="collapsible-menu">
+        <input type="checkbox" id="menu">
+        <label for="menu">Menu</label>
+        <div class="menu-content">
+          <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Projects</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Blog</li>
+            <li><a href="#"></a>Contacts</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="sec1">
+      <h1>Gerrymandering</h1>
+      <h2>Instructions</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum.
+      </p>
+
+    </div>
+    <div class="sec2">
+      <button class="stopDrag">Stop Drag</button>
+      <div id='map'></div>
+      <div id='state' class='state'></div>
+    </div>
+  </div>
+
+  <!-- JQUERY -->
+  <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+
+  <!-- MAPBOX -->
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-pip/v0.0.2/leaflet-pip.js'></script>
+
+  <!-- TURFJS -->
+  <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
